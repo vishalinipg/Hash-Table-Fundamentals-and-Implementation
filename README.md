@@ -10,11 +10,7 @@ Each problem includes:
 * Use Cases
 * Expected Output
 
----
-
 # Week 1
-
----
 
 ## Problem 1: Social Media Username Availability Checker
 
@@ -53,8 +49,6 @@ suggestAlternatives("john_doe") → [john_doe1, john_doe2, john.doe]
 getMostAttempted() → admin (3 attempts)
 ```
 
----
-
 ## Problem 2: E-commerce Flash Sale Inventory Manager
 
 ### Scenario
@@ -92,8 +86,6 @@ purchaseItem("IPHONE15_256GB", userId=12345) → Success, 99 units remaining
 purchaseItem("IPHONE15_256GB", userId=67890) → Success, 98 units remaining
 purchaseItem("IPHONE15_256GB", userId=99999) → Added to waiting list, position #1
 ```
-
----
 
 ## Problem 3: DNS Cache with TTL (Time To Live)
 
@@ -135,8 +127,6 @@ resolve("google.com") → Cache MISS → Query upstream → 172.217.14.216 (TTL:
 Hit Rate: 33.33%, Avg Lookup Time: 2.50 ms
 ```
 
----
-
 ## Problem 4: Plagiarism Detection System
 
 ### Scenario
@@ -176,8 +166,6 @@ Similarity: 70.0% (PLAGIARISM DETECTED)
 Found 7 matching n-grams with "essay_089.txt"
 Similarity: 70.0% (PLAGIARISM DETECTED)
 ```
-
----
 
 ## Problem 5: Real-Time Analytics Dashboard for Website Traffic
 
@@ -224,11 +212,7 @@ Facebook: 28.6%
 Direct: 28.6%
 ```
 
----
-
 # Week 2
-
----
 
 ## Problem 6: Distributed Rate Limiter for API Gateway
 
@@ -268,8 +252,6 @@ checkRateLimit(clientId="abc123") → Allowed (998 requests remaining)
 checkRateLimit(clientId="abc123") → Allowed (997 requests remaining)
 getRateLimitStatus("abc123") → {used: 3, limit: 1000, reset: 1774169701279}
 ```
-
----
 
 ## Problem 7: Autocomplete System for Search Engine
 
@@ -312,8 +294,6 @@ search("jav") →
 updateFrequency("21 features") → Frequency: 1 → 2 → 4 (trending)
 ```
 
----
-
 ## Problem 8: Parking Lot Management with Open Addressing
 
 ### Scenario
@@ -352,8 +332,6 @@ parkVehicle("XYZ-9999") → Assigned spot #127... occupied...... occupied... Spo
 exitVehicle("ABC-1234") → Spot #127 freed, Duration: 0h 1m, Fee: $0.10
 getStatistics() → Occupancy: 0.4%, Avg Probes: 1.0, Peak Hour: 2-3 PM
 ```
-
----
 
 ## Problem 9: Two-Sum Problem Variants for Financial Transactions
 
@@ -397,8 +375,6 @@ findTwoSum(target=500) → [(id:2, id:3)] // 300 + 200
 detectDuplicates() → [{amount:500, merchant:"Store A", accounts:[acc1, acc2]}]
 findKSum(k=3, target=1000) → [(id:1, id:2, id:3)] // 500+300+200
 ```
-
----
 
 ## Problem 10: Multi-Level Cache System with Hash Tables
 
